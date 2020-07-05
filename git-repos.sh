@@ -8,5 +8,5 @@ do
     git -C "${file%/*}" add .
     git -C "${file%/*}" commit -m "auto-commit"
     git -C "${file%/*}" push
-    echo -e "\n\n-------------\n\n"
+    echo -e "\n\n-------------\n"
 done
